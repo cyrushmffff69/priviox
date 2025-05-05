@@ -1,0 +1,86 @@
+body {
+  font-family: 'Cosmic Sans', sans-serif;
+}
+.cypherx-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #00ffaa;
+  text-align: center;
+  background-color: #000;
+}
+
+.input-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffaa44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 350px;
+  max-width: 50%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ddd;
+  font-size: 16px;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ffaa;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #00ddaa;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #00ffaa;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.checkbox-label input[type="checkbox"] {
+  accent-color: #00ffaa;
+}
+
+.link {
+  color: #00aaff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign-up-text {
+  margin-top: 10px;
+}
+
+
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px #00ffaa, 0 0 12px #00ffaa;
+  margin-bottom: 10px;
+}
+
+
+
+
+

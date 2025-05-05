@@ -1,0 +1,56 @@
+.login-container {
+  background: url("/images/ai-bg.gif") center/cover fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  animation: fadeIn 1s ease-in-out;
+  position: relative;
+}
+
+.login-overlay {
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent dark overlay */
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  color: #00ffc6;
+  text-shadow: 0 0 2px #f4faf9;
+  max-width: 400px;
+  width: 90%;
+}
+
+.login-overlay h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.login-overlay input {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.login-overlay button {
+  padding: 0.8rem 2rem;
+  background: #00ffc6;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-overlay button:hover {
+  background: #b4fbec;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
